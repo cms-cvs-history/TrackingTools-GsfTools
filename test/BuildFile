@@ -1,2 +1,4 @@
-<use name="TrackingTools/GsfTools">
+# <use name="TrackingTools/GsfTools">
+<use name=rootmath>
 <bin file=KullbackLeiblerDistance_t.cpp></bin>
+# <Flags CXXFLAGS="-O3 -msse3 -mfpmath=sse">
