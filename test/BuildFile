@@ -2,4 +2,4 @@
 <use name="TrackingTools/AnalyticalJacobians">
 <use name=rootmath>
 <bin file=KullbackLeiblerDistance_t.cpp></bin>
-<Flags CXXFLAGS="-O3 -msse3 -mfpmath=sse">
+<Flags CXXFLAGS="-O3 -msse4 -mfpmath=sse -ftree-vectorize">
