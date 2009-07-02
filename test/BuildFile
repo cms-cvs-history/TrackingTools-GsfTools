@@ -3,4 +3,5 @@
 <use name=rootmath>
 <bin file=KullbackLeiblerDistance_t.cpp></bin>
 <bin file=traceSymMult_t.cpp></bin>
+<bin file=Gauss_t.cpp></bin>
 <Flags CXXFLAGS="-O3 -msse4 -mfpmath=sse -ftree-vectorize">
